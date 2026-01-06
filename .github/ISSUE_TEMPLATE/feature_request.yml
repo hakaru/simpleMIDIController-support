@@ -1,0 +1,57 @@
+name: Feature Request / 機能要望
+description: Suggest an idea for simpleMIDIController / simpleMIDIController の改善提案
+title: "[Request] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your suggestion.
+        ご提案ありがとうございます。
+
+        **Important / 重要**
+        - GitHub Issues are public. Do not post personal information.
+        - GitHub Issues は公開です。個人情報は記載しないでください。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / 課題
+      description: What problem are you trying to solve?
+      placeholder: "I want to... / 〜がしたい"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution / 提案内容
+      description: Describe your idea in detail.
+      placeholder: "Describe the feature / 機能の内容"
+    validations:
+      required: true
+
+  - type: textarea
+    id: midi_device
+    attributes:
+      label: MIDI Device (if relevant) / 対象MIDIデバイス（任意）
+      description: If the request is device-specific, provide the device name/model.
+      placeholder: "Device name / 型番"
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives / 代替案（任意）
+      placeholder: "Other approaches you considered / 検討した代替"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional Context / 補足（任意）
+      placeholder: "Screenshots, mockups, etc. / 画像や補足"
+    validations:
+      required: false
