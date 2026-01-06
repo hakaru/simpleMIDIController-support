@@ -1,0 +1,146 @@
+name: Bug Report / 不具合報告
+description: Report a bug in simpleMIDIController (Bluetooth MIDI controller app) / simpleMIDIController の不具合報告
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug. Please fill in the form below.
+        不具合報告ありがとうございます。以下の項目をご記入ください。
+
+        **Important / 重要**
+        - GitHub Issues are public. Do not post personal information.
+        - GitHub Issues は公開です。個人情報は記載しないでください。
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App Version / アプリバージョン
+      description: e.g., 1.0.0
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device_type
+    attributes:
+      label: Device / 端末
+      options:
+        - iPhone
+        - iPad
+        - Other / その他
+    validations:
+      required: true
+
+  - type: input
+    id: device_model
+    attributes:
+      label: Device Model / 端末機種
+      description: e.g., iPhone 15 Pro, iPad Pro 11-inch (M2)
+      placeholder: "iPhone 15 Pro"
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: iOS/iPadOS Version / OSバージョン
+      description: e.g., iOS 17.2
+      placeholder: "iOS/iPadOS 17.2"
+    validations:
+      required: true
+
+  - type: input
+    id: midi_device_name
+    attributes:
+      label: MIDI Device Name / MIDIデバイス名
+      description: Bluetooth MIDI device model name (required)
+      placeholder: "Device name / 型番など"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: connection_state
+    attributes:
+      label: Connection Status / 接続状況
+      description: Select the closest state at the time of the issue.
+      options:
+        - Cannot find device / デバイスが見つからない
+        - Can find but cannot connect / 見つかるが接続できない
+        - Connects but disconnects / 接続するがすぐ切れる
+        - Connected (issue occurs while connected) / 接続済み（接続中に問題が起きる）
+        - Other / その他
+    validations:
+      required: true
+
+  - type: dropdown
+    id: permission_state
+    attributes:
+      label: Bluetooth Permission / Bluetooth許可
+      options:
+        - Allowed / 許可している
+        - Denied / 拒否している
+        - Not sure / わからない
+    validations:
+      required: true
+
+  - type: dropdown
+    id: latency_dropout
+    attributes:
+      label: Latency / Dropouts / 遅延・途切れ
+      description: Does the issue include latency or audio/MIDI dropouts?
+      options:
+        - No / なし
+        - Latency only / 遅延のみ
+        - Dropouts only / 途切れのみ
+        - Both latency and dropouts / 遅延と途切れの両方
+        - Not sure / わからない
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce / 再現手順
+      description: Provide clear steps so we can reproduce the issue.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result / 期待した結果
+      placeholder: "What you expected to happen / 期待した動作"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Result / 実際の結果
+      placeholder: "What actually happened / 実際に起きたこと"
+    validations:
+      required: true
+
+  - type: textarea
+    id: frequency
+    attributes:
+      label: Frequency / 発生頻度
+      description: e.g., Always, Often, Sometimes, Once
+      placeholder: "Always / Often / Sometimes / Once"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes (optional) / 補足（任意）
+      description: Screenshots/videos are welcome, but do not include personal information.
+      placeholder: "Any additional context / 補足情報"
+    validations:
+      required: false
