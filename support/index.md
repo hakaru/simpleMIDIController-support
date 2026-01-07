@@ -5,6 +5,14 @@
 ---
 
 ## お問い合わせ / Contact
+## GitHub で不具合報告 / Report on GitHub
+
+GitHub の Issue から不具合報告・要望を受け付けています（GitHub アカウントが必要です）。  
+- New issue: https://github.com/hakaru/simpleMIDIController-support/issues/new/choose
+
+### 注意 / Important
+GitHub Issues は公開ページです。個人情報や公開したくない内容は記載しないでください。  
+非公開での連絡はメールをご利用ください：support@hakaru.net
 
 不具合報告・ご質問は、下記メールアドレスまでご連絡ください。
 
