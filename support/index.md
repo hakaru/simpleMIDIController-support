@@ -36,10 +36,11 @@ GitHub Issues は公開ページです。個人情報や公開したくない内
 ## よくある質問 / FAQ
 
 ### Q1. このアプリは何をするアプリですか？
-**simpleMIDIController** は、iPhone/iPad を **Bluetooth MIDI コントローラ**として使用するためのアプリです。  
-対応する Bluetooth MIDI デバイスに接続し、MIDI コントロールを行います。
+**simpleMIDIController** は、iPhone/iPad を **MIDI コントローラ**として使用するためのアプリです。
+Bluetooth MIDI、USB MIDI、または Virtual MIDI port を通じて、シンセサイザーやDAWを操作できます。
 
-**simpleMIDIController** is a Bluetooth MIDI controller app for iPhone and iPad.
+**simpleMIDIController** is a MIDI controller app for iPhone and iPad.
+Control synthesizers and DAWs via Bluetooth MIDI, USB MIDI, or Virtual MIDI port.
 
 ---
 
