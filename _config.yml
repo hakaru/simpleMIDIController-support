@@ -1,0 +1,25 @@
+title: SimpleMidiController Support
+description: Support page for SimpleMidiController - MIDI Controller App for iOS
+theme: jekyll-theme-minimal
+
+collections:
+  posts_en:
+    output: true
+    permalink: /blog/en/:name/
+  posts_ja:
+    output: true
+    permalink: /blog/ja/:name/
+
+defaults:
+  - scope:
+      type: posts_en
+    values:
+      layout: article
+      lang: en
+  - scope:
+      type: posts_ja
+    values:
+      layout: article
+      lang: ja
+
+google_analytics: G-XXXXXXXXXX
