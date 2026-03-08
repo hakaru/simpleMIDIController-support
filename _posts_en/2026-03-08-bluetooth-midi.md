@@ -41,4 +41,4 @@ Experience cable-free performance with Bluetooth MIDI.
 
 ## Related Articles
 
-- [How to Use Your iPhone as a MIDI Controller — Complete DAW Setup Guide]({% post_url 2026-03-08-iphone-midi-controller-setup %})
+- [How to Use Your iPhone as a MIDI Controller — Complete DAW Setup Guide](/blog/en/2026-03-08-iphone-midi-controller-setup/)

@@ -41,4 +41,4 @@ Bluetooth MIDIで、ケーブルから解放された自由な演奏を体験し
 
 ## 関連記事
 
-- [iPhoneをMIDIコントローラーにする方法 — DAW連携完全ガイド]({% post_url 2026-03-08-iphone-midi-controller-setup %})
+- [iPhoneをMIDIコントローラーにする方法 — DAW連携完全ガイド](/blog/ja/2026-03-08-iphone-midi-controller-setup/)

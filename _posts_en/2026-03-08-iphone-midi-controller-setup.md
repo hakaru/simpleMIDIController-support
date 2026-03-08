@@ -205,4 +205,4 @@ If you have never tried using your iPhone as a MIDI controller, now is the perfe
 
 ## Related Articles
 
-- [Wireless Performance with Bluetooth MIDI]({% post_url 2026-03-08-bluetooth-midi %})
+- [Wireless Performance with Bluetooth MIDI](/blog/en/2026-03-08-bluetooth-midi/)
