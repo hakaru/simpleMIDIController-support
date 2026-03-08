@@ -38,3 +38,7 @@ Experience cable-free performance with Bluetooth MIDI.
 ---
 
 [Download on the App Store](https://apps.apple.com/app/simplemidicontroller/id1460601046)
+
+## Related Articles
+
+- [How to Use Your iPhone as a MIDI Controller — Complete DAW Setup Guide]({% post_url 2026-03-08-iphone-midi-controller-setup %})

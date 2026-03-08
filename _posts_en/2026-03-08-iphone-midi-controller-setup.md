@@ -202,3 +202,7 @@ If you have never tried using your iPhone as a MIDI controller, now is the perfe
 ---
 
 [Download SimpleMidiController on the App Store](https://apps.apple.com/app/simplemidicontroller/id6478528959)
+
+## Related Articles
+
+- [Wireless Performance with Bluetooth MIDI]({% post_url 2026-03-08-bluetooth-midi %})

@@ -38,3 +38,7 @@ Bluetooth MIDIで、ケーブルから解放された自由な演奏を体験し
 ---
 
 [App Storeでダウンロード](https://apps.apple.com/app/simplemidicontroller/id1460601046)
+
+## 関連記事
+
+- [iPhoneをMIDIコントローラーにする方法 — DAW連携完全ガイド]({% post_url 2026-03-08-iphone-midi-controller-setup %})
